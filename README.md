@@ -117,7 +117,7 @@ I believe in building real-world applications that solve problems and improve us
 
 📫 **Contact Me**  
 GitHub: [@PARAKALAKARTHIKKYADAV](https://github.com/PARAKALAKARTHIKKYADAV)  
-Email: [kartikyadavkarthik181@gmail.comk@example.com]
+Email: [kartikyadavkarthik181@gmail.com]
 ---
 
 ## 🙏 Acknowledgements

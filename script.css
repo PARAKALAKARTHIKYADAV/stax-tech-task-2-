@@ -1,0 +1,32 @@
+// > Typing animation
+const title = "Web Developer | B.Tech Student | IoT Enthusiast";
+let index = 0;
+const titleElement = document.querySelector("header p");
+
+function typeWriter() {
+  if (index < title.length) {
+    titleElement.textContent += title.charAt(index);
+    index++;
+    setTimeout(typeWriter, 100);
+  }
+}
+titleElement.textContent = "";
+typeWriter();
+
+// > Fade-in effect on scroll
+const sections = document.querySelectorAll('section');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('fade-in');
+    }
+  });
+}, {
+  threshold: 0.1
+});
+
+sections.forEach(section => {
+  section.classList.add('hidden');
+  observer.observe(section);
+});
